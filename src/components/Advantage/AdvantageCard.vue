@@ -5,20 +5,21 @@ import PTag from "@/components/PTag/PTag.vue";
 defineProps<{
     title: string,
     description: string;
-    img: string;
+    span: string;
+   img: string;
 }>()
 </script>
 
 <template>
     <div class="md:flex w-full my-10">
         <img :src="img" alt="pictureCardTour">
-        <div class="p-10 bg-GreenLight w-full">
-            <div>
+        <div class=" grid p-10 pr-20 py-12 bg-GreenLight w-full">
+            <div class="space-y-10">
                 <HtagComponent type="h1">{{title}}</HtagComponent>
-                <PTag>{{description}}</PTag>
+                <PTag className="break-all">{{description}}</PTag>
             </div>
-            <hr>
-            <span></span>
+            <hr class="content-end size">
+            <span>{{span}}</span>
         </div>
     </div>
 </template>

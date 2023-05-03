@@ -10,7 +10,7 @@ defineProps<{
 
 <template>
     <div class="">
-        <img src={{img}} alt="pictureCardTour">
+        <img :src="img" alt="pictureCardTour">
         <div>
             <div>
                 <HtagComponent>{{title}}</HtagComponent>

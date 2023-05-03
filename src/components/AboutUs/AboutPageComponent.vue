@@ -4,15 +4,20 @@ import HtagComponent from "@/components/Htag/HtagComponent.vue";
 import PTag from "@/components/PTag/PTag.vue";
 </script>
 <template>
-    <div className="my-20 space-y-10">
+    <div className="my-20 w-full sspace-y-10">
         <HtagComponent type="h1">Про нас</HtagComponent>
         <div class="mx-auto w-full  grid grid-cols-12 grid-rows-8">
             <div class="row-start-2	 col-start-1 col-end-6">
-                    <PTag className="break-words ">aasdaaasdassaasdassaasdassaasdassaasdassaasdassaasdassssaasdaaasdassaasdassaasdassaasdassaasdassaasdassaasdassssaasdaaasdassaasdassaasdassaasdassaasdassaasdassaasdassssaasdaaasdassaasdassaasdassaasdassaasdassaasdassaasdassssaasdaaasdassaasdassaasdassaasdassaasdassaasdassaasdassssaasdaaasdassaasdassaasdassaasdassaasdassaasdassaasdassssaasdaaasdassaasdassaasdassaasdassaasdassaasdassaasdassssaasdaaasdassaasdassaasdassaasdassaasdassaasdassaasdassss</PTag>
-
+                    <PTag className="break-words ">aasdaaasdassaasdassaasdassaasd
+                      assaasdassaasdassaasdassssaasdaaasdassaasdassaasda
+                      ssaasdassaasdassaasdassaasdassssaasdaaasdassaasdassaasdassaasdassaasdassaasdassaasdassssa
+                      asdaaasdassaasdassaasdassaasdassaasdassaasdassaasdassssaasdaaasdassaasda
+                      ssaasdassaasdassaasdassaasdassaasdassssaasdaaasdassaasdassaasdassaasdassaasdassaasdassaasdassss
+                      aasdaaasdassaasdassaasdassaasdassaasdassaasdassaasdass
+                      ssaasdaaasdassaasdassaasdassaasdassaasdassaasdassaasdassss</PTag>
             </div>
-            <img class="col-start-7 h-full	row-start-1 row-end-6 col-end-12" src="../../assets/About1.jpg" alt="" />
-            <img  class="col-start-5 w-full h-full col-end-8 row-start-7 row-end-8 " src="../../assets/About2.jpg" alt="" />
+            <img class="col-start-8 h-full w-full	row-start-1 row-end-6 col-end-13" src="../../assets/About1.jpg" alt="" />
+            <img  class="col-start-6 w-full h-full col-end-10 row-start-7 row-end-8 " src="../../assets/About2.jpg" alt="" />
             <div class="bg-greenLight  mt-24 w-20 h-20 row-start-7 row-end-8"></div>
         </div>
     </div>

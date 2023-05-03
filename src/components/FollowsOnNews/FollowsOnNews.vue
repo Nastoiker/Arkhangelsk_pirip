@@ -8,7 +8,7 @@ defineProps<{
 </script>
 
 <template>
-    <div className="FollowsContainer md:flex justify-around items-center my-20">
+    <div className="FollowsContainer   md:flex justify-around items-center my-20">
         <div className="w-full">
             <HtagComponent className="text-5xl" type="h1">
                 Подпишитесь на рассылку актуальных новостей Архангельска
